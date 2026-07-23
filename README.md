@@ -1,10 +1,10 @@
-# 📊 Tableau de Bord Scolaire — Power BI
+# Tableau de Bord Scolaire — Power BI
 
 Tableau de bord interactif développé sous **Power BI** pour le suivi et l'analyse de la performance académique d'un établissement scolaire : élèves, enseignants, cours et résultats.
 
 ---
 
-## 🎯 Objectif du Projet
+## Objectif du Projet
 
 Ce tableau de bord centralise les données scolaires (élèves, enseignants, matières, résultats) afin de fournir à la direction pédagogique une vision claire et actionnable sur :
 
@@ -15,11 +15,11 @@ Ce tableau de bord centralise les données scolaires (élèves, enseignants, mat
 
 ---
 
-## 🗂️ Structure du Rapport
+## Structure du Rapport
 
 Le rapport Power BI est organisé en **4 pages** :
 
-### 1️⃣ Vue d'Ensemble — Élèves
+### Vue d'Ensemble — Élèves
 - **KPIs clés** : Total Élèves, Taux de Réussite, Moyenne Générale, Élèves à Risque
 - **Corrélation** entre la Moyenne Générale et le Nombre d'Absences (nuage de points)
 - **Répartition des Élèves par Statut Académique** (Actif, Diplômé, Redoublant, Transféré) — graphique en anneau
@@ -27,20 +27,20 @@ Le rapport Power BI est organisé en **4 pages** :
 - **Répartition des Élèves par Niveau Scolaire et Filière** (histogramme groupé : A, B, Économie, Littérature, Sciences)
 - **Filtres (slicers)** : Matière, Filière/Section, Année d'Inscription, Niveau Scolaire, Type de Contrat
 
-### 2️⃣ Enseignants
+### Enseignants
 - **Distribution des Enseignants par Note d'Évaluation** (histogramme, échelle 1.5 à 5.0)
 - **Effectif des Enseignants par Matière et Type de Contrat** (Contractuel, Titulaire, Vacataire)
 - **Liste Détaillée des Évaluations par Enseignant** (table : Nom, Matière, Type de Contrat, Note d'Évaluation)
 - **Filtres** : Année d'Inscription, Matière, Niveau Scolaire, Filière/Section
 
-### 3️⃣ Cours & Résultats
+### Cours & Résultats
 - **KPIs** : Total Matières, Note d'Évaluation Moyenne, Taux de Réussite
 - **Évolution de la Moyenne Générale par Année et Filière** (courbes multi-séries 2019–2023)
 - **Répartition des Élèves par Matière et Statut** (histogramme empilé)
 - **Table récapitulative** : Moyenne Générale par matière
 - **Filtres** : Niveau Scolaire, Matière, Filière/Section, Année d'Inscription
 
-### 4️⃣ Insights et Recommandations Stratégiques
+### Insights et Recommandations Stratégiques
 Synthèse analytique et recommandations pour la direction :
 
 | Axe | Constat | Recommandation |
@@ -52,7 +52,7 @@ Synthèse analytique et recommandations pour la direction :
 
 ---
 
-## 📈 Indicateurs Clés (KPIs)
+## Indicateurs Clés (KPIs)
 
 | Indicateur | Valeur |
 |---|---|
@@ -65,7 +65,7 @@ Synthèse analytique et recommandations pour la direction :
 
 ---
 
-## 🧱 Modèle de Données
+## Modèle de Données
 
 Le modèle s'articule autour des entités suivantes :
 
@@ -75,7 +75,7 @@ Le modèle s'articule autour des entités suivantes :
 
 ---
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Power BI Desktop** — conception du rapport et des visuels
 - **DAX** — mesures et KPIs calculés
@@ -83,7 +83,7 @@ Le modèle s'articule autour des entités suivantes :
 
 ---
 
-## 🚀 Installation & Utilisation
+## Installation & Utilisation
 
 ### Prérequis
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (version récente recommandée)
@@ -107,7 +107,7 @@ Ce dépôt peut être versionné et documenté via VS Code :
 
 ---
 
-## 📁 Arborescence Suggérée
+## Arborescence Suggérée
 
 ```
 ├── README.md
@@ -121,13 +121,13 @@ Ce dépôt peut être versionné et documenté via VS Code :
 
 ---
 
-## 🔒 Confidentialité
+## Confidentialité
 
 Les données utilisées dans ce projet sont anonymisées / fictives et destinées uniquement à des fins de démonstration et d'apprentissage.
 
 ---
 
-## 📄 Licence
+## Licence
 
 Ce projet est distribué sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
